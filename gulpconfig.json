@@ -1,6 +1,6 @@
 {
   "browserSyncOptions" : {
-    "proxy": "localhost/wordpress/",
+    "proxy": "triviacafe.test/",
     "notify": false
   },
   "browserSyncWatchFiles" : [
