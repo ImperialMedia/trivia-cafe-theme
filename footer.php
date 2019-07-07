@@ -15,6 +15,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
+<!-- google adsense top links -->
+<script type="text/javascript"><!--
+google_ad_client = "pub-6167306740911701";
+/* 728x15, created 8/4/09 */
+google_ad_slot = "8699895901";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+
 <div class="wrapper" id="wrapper-footer">
 
 	<footer class="site-footer">

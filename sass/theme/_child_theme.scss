@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i&display=swap');
 
 
+.question {
+
+	button.show-answer {
+		white-space: nowrap;
+	}
+}
+
 #wrapper-footer {
 	background: $primary;
 	color: $white;

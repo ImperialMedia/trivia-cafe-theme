@@ -11410,6 +11410,9 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+.question button.show-answer {
+  white-space: nowrap; }
+
 #wrapper-footer {
   background: #006389;
   color: #FFFFFF;
