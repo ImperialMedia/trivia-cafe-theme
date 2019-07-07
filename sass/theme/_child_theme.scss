@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i&display=swap');
+
+
+#wrapper-footer {
+	background: $primary;
+	color: $white;
+
+	img {
+		max-width: 17.5rem;
+		width: 100%;
+		height: auto;
+	}
+
+	a {
+		color: $white;
+	}
+
+	h3 {
+		color: $green;
+	}
+
+	background: $teal;
+	color: $white;
+
+	img {
+		width: 280px;
+		max-width: 100%;
+		height: auto;
+	}
+
+	h3 {
+		font-family: 'PT Sans', sans-serif;
+		color: $green;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 2.25rem;
+	}
+
+	p, a {
+		font-family: 'PT Sans', sans-serif;
+		color: $white;
+		font-weight: 700;
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}
+
+	a.nav-link {
+		font-size: 1.125rem;
+		line-height: 1.125rem;
+	}
+
+	ul.nav.social {
+		border-top: 1px solid $white;
+		padding-top: .25rem;
+	}
+}
+

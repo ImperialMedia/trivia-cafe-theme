@@ -32,7 +32,8 @@ gulp.task( 'sass', function() {
                 this.emit( 'end' );
             }
         } ) )
-        .pipe( sass( { errLogToConsole: true } ) )
+        .pipe( sass( { errLogToConsole: true,
+        includePaths: ['node_modules/'] } ) )
         .pipe( autoprefixer( 'last 2 versions' ) )
         .pipe( sourcemaps.write( './' ) )
         .pipe( gulp.dest( paths.css ) )
@@ -172,8 +173,8 @@ gulp.task( 'copy-assets', function() {
 ////////////////// End Bootstrap 4 Assets /////////////////////////
 
 // Copy all Font Awesome Fonts
-    gulp.src( `${paths.node}font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg}` )
-        .pipe( gulp.dest( './fonts' ) );
+    gulp.src( `${paths.node}@fortawesome/fontawesome-free/webfonts/**/*.{ttf,woff,woff2,eot,svg}` )
+        .pipe( gulp.dest( './webfonts' ) );
 
 // Copy all Font Awesome SCSS files
     gulp.src( `${paths.node}font-awesome/scss/*.scss` )
