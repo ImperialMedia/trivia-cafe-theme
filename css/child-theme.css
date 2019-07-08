@@ -11410,6 +11410,21 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+.jumbotron {
+  background: url("./../images/more-photo-file.jpg"); }
+  .jumbotron h1 {
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4.5rem; }
+  .jumbotron p {
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem; }
+
 .question button.show-answer {
   white-space: nowrap; }
 
